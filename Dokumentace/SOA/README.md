@@ -1,0 +1,1 @@
+SDA pro servisně orientovanou architekturu
