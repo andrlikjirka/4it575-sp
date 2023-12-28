@@ -2,7 +2,7 @@
 Seminární práce z předmětu Softwarové architektury
 
 ## Obsah
-- [Zadání práce](#uživatelé)
+- [Zadání práce](#ukol)
 - [Architektonická rozhodnutí](./ADR/README.md)
 - [Dokumentace architektury (SOA)](./Dokumentace/SOA/README.md)
 - [Dokumentace architektury (EDA)](./Dokumentace/EDA/README.md)
