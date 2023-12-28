@@ -6,6 +6,7 @@ Seminární práce z předmětu Softwarové architektury
 - [Architektonická rozhodnutí](./ADR/README.md)
 - [Dokumentace architektury (SOA)](./Dokumentace/SOA/README.md)
 - [Dokumentace architektury (EDA)](./Dokumentace/EDA/README.md)
+- [Zhodnocení](/Zhodnocení/README.md)
 
 ## Úkol:
 1.	Na základě níže popsaných požadavků navrhněte dvě architektury vhodné pro implementaci dané aplikace.
@@ -14,7 +15,6 @@ Seminární práce z předmětu Softwarové architektury
 
 > **Poznámka:**
 > Pokud ze zadání přímo nevyplyne nějaká skutečnost, kterou potřebujete znát, domluvte se ve skupině, a sami ji dodefinujte, tak jako byste se na ni doptali zákazníka.
-
 
 ## Popis aplikace
 Organizátor konferencí potřebuje systém pro správu konferencí, které pořádá, a to jak pro řečníky, tak pro účastníky.
