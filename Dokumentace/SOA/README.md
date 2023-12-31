@@ -1,6 +1,6 @@
 [Domů](/README.md) / [Dokumentace SOA](/Dokumentace/SOA/README.md) 
 
-# Dokumentace architektury systému (Servisně objektovaná architekta)
+# Dokumentace architektury systému (Architektura orientovaná na služby)
 4IT575, Fakulta informatiky statistiky, VŠE v Praze
 Software Architecture Document (SAD)
 Authors: Bc. Jiří Andrlík, Bc. Lukáš Havlíček, Bc. Josef Vyskočil
