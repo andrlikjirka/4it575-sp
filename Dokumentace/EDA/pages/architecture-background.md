@@ -13,38 +13,39 @@ Dokumentace popisuje návrh systému s využitím událostmi řízené architekt
 Tato dokumentace se zaměřuje na návrh softwarové architektury systému pro správu konferencí. Na základě identifikovaných požadavků a omezení zásadních pro daný systém a popsaných použitých architektonických přístupů jsou vytvořeny modely pro tři nejdůležitější pohledy na navrženou softwarovou architekturu.
 
 ### Driving Requirements
-**Rozvrhování přednášek**
+
+#### Functional Requirements
+*Rozvrhování přednášek*
 - Systém by měl řečníkům umožnit zadávat, upravovat a měnit své přednášky. 
 - Systém by měl obsahovat funkce pro automatické rozvrhování přednášek.
 - Účastníci by měly díky systému mít online k dispozici aktuální rozvrh přednášek dané konference (včetně informací o přidělených místnostech, resp. sálech). 
 
-**Archiv prezentací**
+*Archiv prezentací*
 - Systém by měl účastníkům přednášky online zřístupňovat prezentace řečníků. 
 - Archiv prezentací by měl být pro účastníky k dispozici i po skončení konference. 
 
-**Autentizace a autorizace**
+*Autentizace a autorizace*
 - Systém by měl umožňit registrace účastníků a řečníků. Součástí registrace by bylo vyplnění základních osobních údajů a typu uživatele.
 
-**Přihlašování na přednášky**
+*Přihlašování na přednášky*
 - Systém by měl umožňit přihlašování na jednotlivé přednášky konferencí, resp. odhlášování účastníků z přednášek.
 - Systém by měl uživateli přehledně zobrazovat všechny přednášky, na které je jako účastník přihlášen. 
 
-**Vizuální editor**
+*Vizuální editor*
 - Systém by měl umožňovat vytvářet konference s originální vizuální identitou (brandem).
 - Systém by měl organizátorovi umožňovat snadnou úpravu vzhledu stránek konferencí s využitím integrovaného grafického editoru. 
 
-**Hodnocení a hlasování**
+*Hodnocení a hlasování*
 - Systém by měl umožňovat účastníkům hlasování o zvýšení a snížení počtu přednášek. 
 - Systém by měl účastníkům umožnit odesílat hodnocení přednášek (resp. celých konferencí), kterých se zúčastnili. 
 - Systém hodnocení bude umožněn nejen prostřednictvím webových stránek, ale i prostřednictvím emailu, SMS a telefonu. 
 
-**Notifikace účastníků**
+*Notifikace účastníků*
 - Systém by měl umožňovat rychlé odesílání notifikací účastníkům o změnách v rozvrhu přednášek. 
 
 #### Quality Assurance Requirements
 - Systém by měl mít nízkou dobu odezvy, tak aby dokázal rychle reagovat na změny rozvrhování, hlasování atd.
 - Systém by měl být dostatečně výkonný aby zvládl nárůst provozu v době konání konferencí.
-- Systém by měl být lokalizovatelný, protože bude využíván uživateli po celé Evropě. 
 - Systém by měl zajistit bezpečné uchování uživatelských dat. 
 
 ## Solution Background
