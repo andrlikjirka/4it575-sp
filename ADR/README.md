@@ -7,3 +7,4 @@ Zde jsou uloženy architektonická rozhodnutí zpracovaná formou Architecture-D
 1. [Rozhodnutí o celkové architektuře systému pro správu konferencí](./)
 2. [Rozhodnutí o integraci SMS a telefonní brány do systému pro správu konferencí](./integrace-sms-telefonni-brany.md)
 3. [Rozhodnutí o nasazení systému pro správu konferencí](./nasazeni-systemu.md)
+4. [Rozhodnutí o celkové architektuře systému](./celkova-architektura.md)
