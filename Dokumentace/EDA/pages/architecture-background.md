@@ -72,7 +72,7 @@ N/A
 ### Mapping Requirements to Architecture
 Následující use case diagram znázorňuje hlavní uživatelské požadavky systému pro správu konferencí:
 
-![Use Case Diagram](/Dokumentace/EDA/assets/use-case.png)
+![Use Case Diagram](../assets/use-case.png)
 
 **Conference Manager**
 - Zobrazit pořádané konference
