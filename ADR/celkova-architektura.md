@@ -1,3 +1,5 @@
+[Domů](/README.md) / [Architektonická rozhodnutí](/ADR/README.md) / [ADR o celkové architektuře systému](/ADR/celkova-architektura.md)
+
 # Architektonické rozhodnutí o celkové architektuře systému
 
 Datum vytvoření: 03.01.2024

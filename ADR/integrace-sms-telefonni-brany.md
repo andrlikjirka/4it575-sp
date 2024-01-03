@@ -1,4 +1,4 @@
-[Domů](/README.md) / [Architektonická rozhodnutí](/ADR/README.md) / [Integrace SMS a telefonní brány (ADR)](/ADR/integrace-sms-telefonni-brany.md)
+[Domů](/README.md) / [Architektonická rozhodnutí](/ADR/README.md) / [ADR o integraci SMS a telefonní brány](/ADR/integrace-sms-telefonni-brany.md)
 
 # Architektonické rozhodnutí o integraci SMS a telefonní brány
 

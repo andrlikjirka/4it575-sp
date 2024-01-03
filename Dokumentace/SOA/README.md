@@ -12,6 +12,3 @@ Authors: Bc. Jiří Andrlík, Bc. Lukáš Havlíček, Bc. Josef Vyskočil
     - [High Level Module View](/Dokumentace/SOA/pages/module-view.md)
     - [Component View](/Dokumentace/SOA/pages/component-view.md)
     - [Deployment View](/Dokumentace/SOA/pages/deployment-view.md)
-4. Mapping Between Views
-5. Referenced Materials
-6. Glossary and Acronyms
