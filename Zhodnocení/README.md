@@ -6,7 +6,9 @@ Pro zhodnocení vhodnosti využití vybraných architektonických stylů, které
 ## Metodika hodnocení
 Pro každou ze zvolených architektur byla vytvořena hodnotící tabulka. Kritérii hodnocení jsou architektonické charakteristiky, které každý z architektonických stylů určitým způsobem splňuje. Pro každou z těchto charakteristik bylo doplněno hodnocení na ordinální škále podle toho, jaké požadavky by měl výsledný systém splňovat. Dané číselné hodnocení vyjdařuje počet hvězdiček, tj. čím vyšší hodnocení, tím lépe. Jelikož nejsou všechny charakteristiky pro navrhovaný systém stejně důležité, byla dále zavedena i váha, vyjadřující, jak moc je daná charakteristika zásadní pro celkové hodnocení vhodnosti použití daného architektonického stylu. Podle toho 
 
-## Hodnotící škála a váhy
+## Hodnotové škály
+
+### Škála hodnocení
 
 | **Slovní hodnocení** | **Počet hvězdiček** |
 |----------------------|---------------------|
@@ -15,6 +17,8 @@ Pro každou ze zvolených architektur byla vytvořena hodnotící tabulka. Krit�
 | Dobré                | 3                   |
 | Slabé                | 2                   |
 | Spatné               | 1                   |
+
+### Váhy
 
 | **Váha**       | **Výzanm** |
 |----------------|------------|
@@ -40,8 +44,7 @@ Pro každou ze zvolených architektur byla vytvořena hodnotící tabulka. Krit�
 | Spolehlivost         | 3             | 0,5      | 2,00         |
 | Jednoduchost         | 1             | 1,00     | 3,00         |
 | Testovatelnost       | 2             | 0,50     | 2,00         |
-
-Celkové hodnocení (SOA) = 22,75
+| **Celkové hodnocení**| **22,75**                               |
 
 ### Událostmi řízená architektura
 
@@ -57,8 +60,7 @@ Celkové hodnocení (SOA) = 22,75
 | Spolehlivost         | 3             | 0,5      | 1,5          |
 | Jednoduchost         | 1             | 1,00     | 1,00         |
 | Testovatelnost       | 2             | 0,50     | 1,00         |
-
-Celkové hodnocení (EDA) = 22,00
+| **Celkové hodnocení**| **22,00**                               |
 
 ## Závěr
 
