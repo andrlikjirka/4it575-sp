@@ -46,7 +46,7 @@ Podle celkového hodnocení, které jednotlivé architektonické styly získali 
 | Spolehlivost         | 3             | 0,5      | 2,00         |
 | Jednoduchost         | 1             | 1,00     | 3,00         |
 | Testovatelnost       | 2             | 0,50     | 2,00         |
-| **Celkové hodnocení**| **22,75**                               |
+| **Celkové hodnocení**|               |          | **22,75**    |
 
 ### Událostmi řízená architektura
 
@@ -62,7 +62,7 @@ Podle celkového hodnocení, které jednotlivé architektonické styly získali 
 | Spolehlivost         | 3             | 0,5      | 1,5          |
 | Jednoduchost         | 1             | 1,00     | 1,00         |
 | Testovatelnost       | 2             | 0,50     | 1,00         |
-| **Celkové hodnocení**| **22,00**                               |
+| **Celkové hodnocení**|               |          |**22,00**     |
 
 ## Závěr
 
