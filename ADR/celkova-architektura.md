@@ -14,7 +14,6 @@ Tyto služby budou pokrývat specifickou část funkcionalit, např. služba pro
 Jednotlivé služby budou separátně nasazeny v cloudu.
 
 ## Consequences 
-Popsat dopady provedeného rozhodnutí, způsobená omezení
 Implementací architektury SOA docílíme rozdělení aplikace na funkční celky, což nám pomůže jednoduše udržovat kód, testovat a rozšiřovat. Systém budeme moci rozšiřovat o další služby.
 Díky separátnímu nasazení jednotlivých služeb do cloudu budeme moci jednoduše nastavit škálování podle vytíženosti.
 Implementace SOA bude s sebou nést zvýšené požadavky na správu kvůli potřebě komunikace mezi službami a ESB.
