@@ -15,7 +15,7 @@ Rozhraní: Definuje typy událostí, které komponenty posílají nebo přijíma
 
 ![rozhraní](../assets/component-2.png)
 
-Požadované rozhraní: Část reprezentující napojení na rozhraní, které komponenta potřebuje
+Požadované rozhraní: Část reprezentující napojení na rozhraní, které komponenta potřebuje ke své správné funkci
 
 ![balíček](../assets/component-3.png)
 
