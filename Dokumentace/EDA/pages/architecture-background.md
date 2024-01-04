@@ -53,6 +53,10 @@ Tato dokumentace se zaměřuje na návrh softwarové architektury systému pro s
 ### Architectural Approaches
 Pro návrh systému pro správu konferencí byla zvolena událostmi řízená architektura s topologií Meidátor. 
 
+Centrálním prvkem zajišťující distribuci událostí bude komponenta mediátoru. Meidátor bude plnit úlohu prostředníka mezi klientskými aplikacemi a komponentami zajišťující jednotlivé funkčnosti systému. Z klientských aplikací budou událost předávány do fronty zpráv, ze které bude mediátor zprávy synchronním způsobem vybírat a distribuovat do kanálů zpráv jednotlivých komponent zodpovědných za požadovanou funkčnost. 
+
+Události budou mít podobu zpráv ve formátu JSON. Zasílané zprávy tak budou odlehčené a jednoduché. 
+
 Hlavním producentem událostí budou klientské aplikace (tj. uživatelské rozhraní) v podobě webové a mobilní aplikace. 
 
 Jako konzumenti událostí budou vystupovat následující komponenty:
@@ -61,10 +65,6 @@ Jako konzumenti událostí budou vystupovat následující komponenty:
 - Scheduler: rozvrhování přednášek a přiřazování volných místnost,
 - Reviewer: hodnocení přednášek a konferencí, komunikuje s telefonní a SMS bránou (Twilio CPaaS),
 - Notificator: odesílání notifikací účastníkům.
-
-Centrálním prvkem zajišťující distribuci událostí bude komponenta mediátoru. Meidátor bude plnit úlohu prostředníka mezi klientskými aplikacemi a komponentami zajišťující jednotlivé funkčnosti systému. Z klientských aplikací budou událost předávány do fronty zpráv, ze které bude mediátor zprávy synchronním způsobem vybírat a distribuovat do kanálů zpráv jednotlivých komponent zodpovědných za požadovanou funkčnost. 
-
-Události budou mít podobu zpráv ve formátu JSON. Zasílané zprávy tak budou odlehčené a jednoduché. 
 
 ### Analysis Results
 N/A
