@@ -4,6 +4,7 @@
 
 ## Primary Presentation
 ![Component diagram](../assets/soa-component-diagram.png)
+
 Vysvětlivka pro diagram:
 
 Komponenta: Jednotka, která zpracovává a reaguje na události (events).
