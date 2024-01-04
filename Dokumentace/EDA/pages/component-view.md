@@ -23,28 +23,29 @@ Balíček: Skupina komponent, které jsou součástí většího procesního tok
 
 ## Element Catalog
 
-- **Webový server (Web Server)**: Slouží jako distribuční uzel pro události mezi klientskou aplikací a ostatními backendovými službami. Zajišťuje zpracování požadavků uživatelů a komunikaci s aplikačním serverem.
+- **Web UI**: Uživatelské rozhraní pro web, poskytuje interakci s uživateli prostřednictvím webového prohlížeče.
 
-- **Aplikační server (Application Server)**: Hlavní zpracovatelská jednotka, která zajišťuje běh aplikační logiky a koordinuje činnost ostatních služeb jako jsou plánování, správa řečníků a hlasování.
+- **Mobilní UI**: Uživatelské rozhraní optimalizované pro mobilní zařízení, poskytuje interakci s uživateli skrze mobilní aplikace.
 
-- **Služba plánování (Scheduling Service)**: Umožňuje organizátorům plánovat události a řečníkům spravovat jejich přednášky.
+- **Mediátor**: Centrální komponenta, která řídí komunikaci mezi uživatelskými rozhraními a backendovými službami, zajišťuje koordinaci a směrování událostí v systému.
 
-- **Služba správy řečníků (Speaker Management Service)**: Poskytuje řečníkům možnost zadávat a upravovat informace o svých přednáškách.
+- **Služba plánování (Scheduling Service)**: Spravuje kalendáře událostí a plánování přednášek pro konference.
 
-- **Hlasovací služba (Voting Service)**: Umožňuje účastníkům hlasovat o zvýšení nebo snížení počtu přednášek.
+- **Služba správy řečníků (Speaker Management Service)**: Umožňuje řečníkům spravovat jejich profily a přednášky.
 
-- **Služba brandingu (Branding Service)**: Umožňuje přizpůsobit branding pro jednotlivé konference a zajistit tak jejich vizuální jedinečnost.
+- **Hlasovací služba (Voting Service)**: Zpracovává hlasování účastníků o přednáškách a dalších aspektech konference.
 
-- **Služba přístupu k obsahu (Content Access Service)**: Řídí přístup k prezentacím a dalšímu obsahu, který je dostupný online pouze pro registrované účastníky.
+- **Služba brandingu (Branding Service)**: Přizpůsobuje vizuální prvky konference pro podporu jednotné značky a identity.
 
-- **Služba zpětné vazby (Feedback Service)**: Shromažďuje a zpracovává zpětnou vazbu od účastníků prostřednictvím různých kanálů jako jsou webové stránky, e-mail, SMS nebo telefon.
+- **Služba přístupu k obsahu (Content Access Service)**: Řídí přístup k obsahu přednášek a dalším materiálům konference.
 
-- **Notifikační služba (Notification Service)**: Informuje účastníky o posledních změnách v rozvrhu a dalších důležitých oznámeních.
+- **Služba zpětné vazby (Feedback Service)**: Sbírá a analyzuje zpětnou vazbu od účastníků konference.
 
-- **Databázový systém (Database System)**: Skladuje data a zajišťuje jejich konzistenci a dostupnost. Umožňuje obnovu stavu systému pomocí event sourcingu a podporuje operace s daty přes ODBC rozhraní.
+- **Notifikační služba (Notification Service)**: Poskytuje uživatelům upozornění na změny v rozvrhu a důležité informace týkající se konference.
 
-Každý z těchto elementů hraje klíčovou roli v architektuře systému a je navržen tak, aby podporoval vysokou dostupnost a škálovatelnost potřebnou pro uspokojení požadavků systému pro správu konferencí.
+- **Databázový systém (Database System)**: Ukládá a spravuje data potřebná pro běh konferenčního systému, včetně uživatelských dat a informací o událostech.
 
+Tato komponentová struktura umožňuje efektivní zpracování a distribuci událostí v rámci celého systému, zatímco podporuje škálovatelnost a flexibilitu potřebnou pro efektivní správu konferencí.
 ## Variability Guide
 Systém umožňuje adaptabilitu na základě konfigurace zpracování událostí, což je klíčové pro správu různorodých typů událostí a integraci s různými technologickými stacky bez závislosti na konkrétním poskytovateli.
 
