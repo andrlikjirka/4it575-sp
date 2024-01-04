@@ -52,11 +52,12 @@ Tato dokumentace se zaměřuje na návrh softwarové architektury systému pro s
 
 ### Architectural Approaches
 Pro návrh systému pro správu konferencí byla zvolena architektura orientovaná na služby. Ucelený soubor funkčností, které spolu souvisí, bude oddělen do samostatné služby. Mezi tyto služby bude patřit:
-- Conference Management Service: vytváření, úprava a správa konferencí, customizace vizuální identity konference.
-- Presentation Service: zadávání, úprava a správa přednášek a prezentací řečníků.
-- Scheduling Service: rozvrhování přednášek a přiřazování volných místnost,
-- Review Service: hodnocení přednášek a konferencí, komunikuje s telefonní a SMS bránou (Twilio CPaaS),
-- Notification Service: odesílání notifikací účastníkům.
+- Content Management Service: služba pro vytváření, úprava a správa konferencí, zadávání a správa přednášek, nahrávání prezentací
+- Skinning Service: služba pro customizace vizuální identity konference.
+- Scheduling Service: služba pro rozvrhování přednášek a přiřazování volných místnost,
+- Voting Service: služba pro hodnocení přednášek a konferencí, komunikuje s telefonní a SMS bránou (Twilio CPaaS),
+- Notification Service: služba pro odesílání notifikací účastníkům konferencí,
+- Users Service: služba pro správu uživatelů systému
 
 Služby budou vytvořeny jako webové API s využitím REST architektury. Webové služby budou komunikovat pomocí  standardních metod protokolu HTTP a data budou odesílána v jednoduchém formátu JSON. Díky využití REST architektury bude výsledný systém jednodušší na implementaci. 
 
@@ -72,27 +73,33 @@ Následující use case diagram znázorňuje hlavní uživatelské požadavky sy
 
 ![Use Case Diagram](/Dokumentace/SOA/assets/use-case.png)
 
-**Conference Management Service**
+**Content Management Service**
 - Zobrazit pořádané konference
 - Vytvořit konferenci
 - Upravit konferenci
 - Smazat konferenci
-
-**Presentation Service**
 - Zobrazit přednášky
 - Přihlásit se na přednášku
 - Stáhnout prezentaci přednášky
 - Přidat přednášku
 - Upravit přednášku
 - Smazat přednášku
-- Hlasovat o počtu přednášek
+
+**Skinning Service**
+- Vizuální customizace (skinování) stránek konference
 
 **Scheduling Service**
 - Rozvrhovat přednášky a přidělovat místnosti
 
-**Review Service**
+**Voting Service**
 - Hodnotit přednášky
 - Hodnotit konference
+- Hlasovat o počtu přednášek
 
 **Notification Service**
 - Notifikovat o změnách
+
+**Users Service**
+- Registrovat se jako uživatel
+- Přihlásit se do systému
+- Spravovat účastníky
