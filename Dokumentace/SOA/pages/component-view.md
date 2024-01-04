@@ -7,9 +7,11 @@
 Vysvětlivka pro diagram:
 
 Komponenta: Jednotka, která zpracovává a reaguje na události (events).
+
 ![komponenta](../assets/component-1.png)
 
 Rozhraní: Definuje typy událostí, které komponenty posílají nebo přijímají.
+
 ![rozhraní](../assets/component-2.png)
 
 Požadované rozhraní: Část reprezentující napojení na rozhraní, které komponenta potřebuje
