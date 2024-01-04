@@ -38,4 +38,4 @@ Požadované rozhraní: Část reprezentující napojení na rozhraní, které k
 None
 
 ## Other Information
-Díky této architektuře docílíme rozdělení dle funkcionality, což nám pomůže lépe rozdělit práci, rozšiřovat a testovat software. Díky nasazení do cloudu také zajistíme škálovatelnost, jelikož každá ze služeb bude nasazena v separátním containeru. 
+Architektura umožňuje rozdělení dle funkcionality, což umožní lépší dělbu práce, jednodušší rozšiřování a jednodušší testování software. Nasazením do cloudu se dá zajistit škálovatelnost, jelikož každá ze služeb je zamýšlena, aby byla nasazena v separátním containeru. 
