@@ -1,4 +1,4 @@
-[Domů](/README.md) / [Dokumentace SOA](/Dokumentace/SOA/README.md) / [High Level Module View](/Dokumentace/SOA/pages/module-view.md)
+[Domů](/README.md) / [Dokumentace SOA](/Dokumentace/SOA/README.md) / [Package View](/Dokumentace/SOA/pages/module-view.md)
 
 # Package View
 
