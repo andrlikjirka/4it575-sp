@@ -1,5 +1,6 @@
 # 4IT575 - Seminární práce
 Seminární práce z předmětu Softwarové architektury
+
 Autoři: Bc. Jiří Andrlík, Bc. Lukáš Havlíček, Bc. Josef Vyskočil
 
 ## Obsah
