@@ -35,7 +35,7 @@ Požadované rozhraní: Část reprezentující napojení na rozhraní, které k
 - **Mobile view, web view**: Reprezentuje mobilní a webové klientské rozhraní.
   
 ## Variability 
-None
+Systém umožňuje adaptabilitu na základě konfigurace a oddělení jednotlivých komponent. Systém je navržen tak, aby šlo komponenty jednoduše přidávat, což umožní lepší rozšiřitelnost v případě dalších potřeb businessu.
 
 ## Other Information
 Architektura umožňuje rozdělení dle funkcionality, což umožní lépší dělbu práce, jednodušší rozšiřování a jednodušší testování software. Nasazením do cloudu se dá zajistit škálovatelnost, jelikož každá ze služeb je zamýšlena, aby běžela v separátním containeru. 
