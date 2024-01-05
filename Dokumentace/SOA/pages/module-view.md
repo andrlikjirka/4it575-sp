@@ -1,6 +1,6 @@
-[Domů](/README.md) / [Dokumentace SOA](/Dokumentace/SOA/README.md) / [Package View](/Dokumentace/SOA/pages/module-view.md)
+[Domů](/README.md) / [Dokumentace SOA](/Dokumentace/SOA/README.md) / [High Level Module View](/Dokumentace/SOA/pages/module-view.md)
 
-# Package View
+# High Level Module View
 
 ## Primary Presentation
 ![Package diagram](../assets/soa-package-diagram.png)
