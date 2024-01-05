@@ -4,7 +4,7 @@
 
 ## Primary Presentation
 
-Diagram popisuje strukturu systému z pohledu balíčků. Zachyceny jsou jednotlivé balíčky a závislosti mezi nimi.
+Diagram popisuje strukturu systému z pohledu balíčků. Zachyceny jsou jednotlivé balíčky, které systém bude obsahovat a závislosti mezi nimi.
 
 ![Package diagram](../assets/soa-package-diagram.png)
 
