@@ -60,11 +60,13 @@ Události budou mít podobu zpráv ve formátu JSON. Zasílané zprávy tak budo
 Hlavním producentem událostí budou klientské aplikace (tj. uživatelské rozhraní) v podobě webové a mobilní aplikace. 
 
 Jako konzumenti událostí budou vystupovat následující komponenty:
-- Conference Manager: vytváření, úprava a správa konferencí, customizace vizuální identity konference.
-- Presentation Manager: zadávání, úprava a správa přednášek a prezentací řečníků.
-- Scheduler: rozvrhování přednášek a přiřazování volných místnost,
-- Reviewer: hodnocení přednášek a konferencí, komunikuje s telefonní a SMS bránou (Twilio CPaaS),
-- Notificator: odesílání notifikací účastníkům.
+- Služba obsahu: vytváření, úprava a správa konferencí, zadávání, úprava a správa přednášek a prezentací řečníků
+- Služba brandingu: customizace vizuální identity konference.
+- Služba plánování: rozvrhování přednášek a přiřazování volných místnost,
+- Hlasovací služba: hlasování o počtu přednášek, bude komunikovat s telefonní a SMS bránou (Twilio CPaaS),
+- Notifikační služba: odesílání notifikací účastníkům.
+- Služba správy uživatelů: authentizace, autorizace, správa uživatelů
+- Služba zpětné vazby: hodnocení přednášek
 
 ### Analysis Results
 N/A
@@ -74,27 +76,35 @@ Následující use case diagram znázorňuje hlavní uživatelské požadavky sy
 
 ![Use Case Diagram](../assets/use-case.png)
 
-**Conference Manager**
+**Služba obsahu**
 - Zobrazit pořádané konference
 - Vytvořit konferenci
 - Upravit konferenci
 - Smazat konferenci
-
-**Presentation Manager**
 - Zobrazit přednášky
 - Přihlásit se na přednášku
 - Stáhnout prezentaci přednášky
 - Přidat přednášku
 - Upravit přednášku
 - Smazat přednášku
-- Hlasovat o počtu přednášek
 
-**Scheduler**
+**Služba brandingu**
+- Skinování stránek konference
+
+**Služba plánování**
 - Rozvrhovat přednášky a přidělovat místnosti
 
-**Reviewer**
+**Hlasovací služba**
+- Hlasovat o počtu přednášek
+
+**Služba zpětné vazby**
 - Hodnotit přednášky
 - Hodnotit konference
 
-**Notificator**
+**Notifikační služba**
 - Notifikovat o změnách
+
+**Služba správy uživatelů**
+- Registrovat se jako uživatel
+- Přihlásit se do systému
+- Spravovat účastníky
