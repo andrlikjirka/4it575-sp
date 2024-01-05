@@ -3,6 +3,9 @@
 # High Level Module View
 
 ## Primary Presentation
+
+Diagram popisuje strukturu systému z pohledu balíčků. Zachyceny jsou jednotlivé balíčky a závislosti mezi nimi.
+
 ![Package diagram](../assets/soa-package-diagram.png)
 
 Vysvětlivka pro diagram:
@@ -28,7 +31,7 @@ Závislost (dependency): Vztah mezi balíčky, který ukazuje, jak jeden balíč
 - **Database**: Balíček pro ukládání dat do databáze.
 
 ## Variability 
-...
+Systém umožňuje adaptabilitu na základě konfigurace a oddělení jednotlivých komponent.
 
 ## Other Information
 ...
