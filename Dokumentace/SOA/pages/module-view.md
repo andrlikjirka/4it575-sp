@@ -31,7 +31,7 @@ Závislost (dependency): Vztah mezi balíčky, který ukazuje, jak jeden balíč
 - **Database**: Balíček pro ukládání dat do databáze.
 
 ## Variability 
-Systém umožňuje adaptabilitu na základě konfigurace a oddělení jednotlivých komponent.
+Systém umožňuje adaptabilitu na základě konfigurace a oddělení jednotlivých komponent. Komponenty lze přidávat, což umožní lepší rozšiřitelnost v případě dalších potřeb businessu.
 
 ## Other Information
 ...
