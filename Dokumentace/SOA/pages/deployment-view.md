@@ -42,7 +42,6 @@ Protokol: Jde o popis komunikace mezi systémy.
 
 - **Twilio**: Externí služba integrovaná s webovým serverem pro posílání notifikací a zpráv.
 
-Každá komponenta je klíčová pro fungování celého systému a je navržena s ohledem na nejlepší možné využití cloudových služeb.
 
 
 ## Variability
