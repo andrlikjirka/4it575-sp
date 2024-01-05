@@ -48,4 +48,4 @@ Protokol: Jde o popis komunikace mezi systémy.
 V namodelovaném systému lze kompletně změnit cloudového poskytovatele, tedy změnit i Azure container apps, Azure database for Postgresql na služby poskytované jiným poskytovatelem, či provozovat tyto služby on-premise. Místo systému Twilio lze také dosadit jiný systém, včetně protokolu pro komunikaci s daným novým systémem.
 
 ## Other Information
-None
+Je vhodné zdůraznit, že v části Web server - Azure container apps obsahuje jak klientskou aplikaci, tak ESB, tak všechny služby
