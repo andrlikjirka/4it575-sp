@@ -45,7 +45,7 @@ Protokol: Jde o popis komunikace mezi systémy.
 
 
 ## Variability
-V namodelovaném systému lze kompletně změnit cloudového poskytovatele, tedy změnit i Azure container apps, Azure database for Postgresql na služby poskytované jiným poskytovatelem, či provozovat tyto služby on-premise. Místo systému Twilio lze také dosadit jiný systém.
+V namodelovaném systému lze kompletně změnit cloudového poskytovatele, tedy změnit i Azure container apps, Azure database for Postgresql na služby poskytované jiným poskytovatelem, či provozovat tyto služby on-premise. Místo systému Twilio lze také dosadit jiný systém, včetně protokolu pro komunikaci s daným novým systémem.
 
 ## Other Information
 None
