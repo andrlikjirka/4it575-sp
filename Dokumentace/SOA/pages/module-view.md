@@ -32,7 +32,7 @@ Závislost (dependency): Vztah mezi balíčky, který ukazuje, jak jeden balíč
 
 ## Variability 
 Systém umožňuje adaptabilitu na základě konfigurace a oddělení jednotlivých komponent. Systém je navržen tak, aby šlo komponenty jednoduše přidávat, což umožní lepší rozšiřitelnost v případě dalších potřeb businessu.
-Místo systému Twilio lze použít kterýkoliv jiný systém, který bude možné integrovat.
+Místo systému Twilio lze použít kterýkoliv jiný systém, který bude možné integrovat se systémem.
 
 ## Other Information
 Architektura umožňuje rozdělení dle funkcionality, což je klíčové pro udržení jednoduchosti, jednoduché testovatelnosti a rozšiřitelnosti.
